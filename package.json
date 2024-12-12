@@ -1,0 +1,29 @@
+{
+  "name": "todolist-project",
+  "version": "1.0.0",
+  "description": "A simple and efficient to-do list application for managing tasks and boosting productivity.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagathvm/ToDoLists.git"
+  },
+  "author": "JagathVM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagathvm/ToDoLists/issues"
+  },
+  "homepage": "https://github.com/jagathvm/ToDoLists#readme",
+  "devDependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.11.0",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
