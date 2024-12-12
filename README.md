@@ -80,14 +80,12 @@ http://localhost:<PORT>
   ```json
   {
     "success": true,
-    "data": [
-      {
-        "_id": "<task_id>",
-        "task": "<task_name>",
-        "description": "<task_description>",
-        "completed": false
-      }
-    ]
+    "data": {
+      "_id": "<task_id>",
+      "task": "<task_name>",
+      "description": "<task_description>",
+      "completed": false
+    }
   }
   ```
 
